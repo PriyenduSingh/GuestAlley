@@ -224,4 +224,5 @@ app.get('/api/bookings',async(req,res)=>{
   res.json(await Booking.find({user:userData.id}).populate('place'));
 })
 
-app.listen(4000);                                                                                               
+app.listen(4000);      
+console.log('Server running on port 4000');

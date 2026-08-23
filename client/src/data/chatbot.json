@@ -1,0 +1,70 @@
+[
+  {
+    "keywords": ["hello", "hi", "hey"],
+    "response": "Hello! Welcome to GuestAlley. How can I help you?"
+  },
+  {
+    "keywords": ["hotel", "hotels", "property", "properties"],
+    "response": "You can search available hotels using the destination search bar."
+  },
+  {
+    "keywords": ["search", "find", "looking"],
+    "response": "Use the search bar to find properties by city, destination, or address."
+  },
+  {
+    "keywords": ["book", "booking", "reserve", "reservation"],
+    "response": "To book a property, select your dates and click the reserve button on the property page."
+  },
+  {
+    "keywords": ["price", "pricing", "cost", "rate", "rates"],
+    "response": "Prices vary by location and dates. You can view nightly rates on each property listing."
+  },
+  {
+    "keywords": ["payment", "pay", "paid", "transaction"],
+    "response": "We accept secure payments through our platform. Payment details are collected during checkout."
+  },
+  {
+    "keywords": ["cancel", "cancellation", "cancelling"],
+    "response": "Cancellation policies vary by property. Please check the specific property's cancellation policy before booking."
+  },
+  {
+    "keywords": ["check-in", "checkin", "check in", "arrival"],
+    "response": "Standard check-in time is 2:00 PM. Early check-in may be available upon request."
+  },
+  {
+    "keywords": ["check-out", "checkout", "check out", "departure"],
+    "response": "Standard check-out time is 11:00 AM. Late check-out can be arranged based on availability."
+  },
+  {
+    "keywords": ["amenity", "amenities", "facility", "facilities", "wifi", "pool"],
+    "response": "Each property lists its amenities. Look for the amenities section on the property page for details like WiFi, pool, parking, etc."
+  },
+  {
+    "keywords": ["location", "address", "area", "where"],
+    "response": "You can find the exact location and address of each property on its detail page."
+  },
+  {
+    "keywords": ["dubai"],
+    "response": "We have amazing properties in Dubai! Use the search bar to explore available stays."
+  },
+  {
+    "keywords": ["delhi"],
+    "response": "Delhi offers great accommodation options. Try searching for Delhi in the search bar."
+  },
+  {
+    "keywords": ["gurgaon", "gurugram"],
+    "response": "Gurgaon has many excellent properties. Search now to find your perfect stay!"
+  },
+  {
+    "keywords": ["udaipur"],
+    "response": "Udaipur is a beautiful destination with wonderful properties. Start searching today!"
+  },
+  {
+    "keywords": ["help"],
+    "response": "I can help with hotels, bookings, prices, payments, cancellations, destinations, and more. Just ask!"
+  },
+  {
+    "keywords": ["contact", "support", "helpdesk", "assist"],
+    "response": "You can reach our support team through the Contact page or email us at support@guestalley.com."
+  }
+]

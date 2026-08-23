@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <defs>
+    <clipPath id="circleClip">
+      <circle cx="120" cy="120" r="110"/>
+    </clipPath>
+  </defs>
+
+  <circle cx="120" cy="120" r="110" fill="#0f1f3d"/>
+
+  <g clip-path="url(#circleClip)">
+    <circle cx="120" cy="120" r="110" fill="#0f1f3d"/>
+
+    <path d="M120 15 L145 50 L165 55 L160 75 L185 80 L180 100 L160 105 L155 120 L120 115 L85 120 L80 105 L60 100 L55 80 L80 75 L75 55 L95 50 Z" fill="#0f1f3d" stroke="#0f1f3d" strokeWidth="2" strokeLinejoin="round"/>
+
+    <path d="M85 115 L85 95 Q85 85 95 85 L145 85 Q155 85 155 95 L155 115" fill="none" stroke="#0f1f3d" strokeWidth="6" strokeLinecap="round"/>
+
+    <rect x="105" y="130" width="30" height="50" rx="4" fill="#ffffff"/>
+
+    <rect x="115" y="160" width="10" height="20" rx="2" fill="#0f1f3d"/>
+
+    <rect x="88" y="175" width="14" height="5" rx="2" fill="#0f1f3d"/>
+    <rect x="138" y="175" width="14" height="5" rx="2" fill="#0f1f3d"/>
+
+    <path d="M70 175 L70 150 Q70 145 75 145 L90 145" fill="none" stroke="#ffffff" strokeWidth="4" strokeLinecap="round"/>
+    <rect x="62" y="145" width="16" height="8" rx="2" fill="#ffffff"/>
+    <rect x="65" y="130" width="10" height="15" rx="1" fill="#ffffff"/>
+
+    <path d="M170 175 L170 150 Q170 145 165 145 L150 145" fill="none" stroke="#ffffff" strokeWidth="4" strokeLinecap="round"/>
+    <rect x="162" y="145" width="16" height="8" rx="2" fill="#ffffff"/>
+    <rect x="165" y="130" width="10" height="15" rx="1" fill="#ffffff"/>
+
+    <rect x="98" y="100" width="16" height="30" rx="8" fill="#ffffff"/>
+    <rect x="126" y="100" width="16" height="30" rx="8" fill="#ffffff"/>
+
+    <path d="M55 95 Q55 60 85 55 Q95 53 100 45 Q105 38 110 40 L110 55 L130 55 L130 40 Q135 38 140 45 Q145 53 155 55 Q185 60 185 95" fill="none" stroke="#ffffff" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round"/>
+
+    <circle cx="120" cy="42" r="4" fill="#ffffff"/>
+
+    <path d="M85 105 L85 95 L155 95 L155 105" fill="none" stroke="#ffffff" strokeWidth="3" strokeLinecap="round"/>
+
+    <rect x="88" y="185" width="64" height="12" rx="6" fill="#ffffff"/>
+    <rect x="95" y="192" width="50" height="5" rx="2" fill="#0f1f3d"/>
+
+    <line x1="120" y1="140" x2="120" y2="185" stroke="#0f1f3d" strokeWidth="2"/>
+  </g>
+</svg>
