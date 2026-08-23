@@ -26,15 +26,20 @@ app.use('/uploads',express.static(__dirname+'/uploads'));
 app.use(cors({
      credentials: true,
      origin: (origin, callback) => {
-         const allowedOrigins = ['http://localhost:5173', 'http://localhost:5174'];
+         const allowedOrigins = [
+             'http://localhost:5173',
+             'http://localhost:5174',
+             'https://guestally-lyart.vercel.app',
+             'https://airbnbclone-lyart.vercel.app'
+         ];
          if (!origin || allowedOrigins.includes(origin)) {
              callback(null, true);
          } else {
              callback(new Error('Not allowed by CORS'));
          }
      },
-}
-));
+ }
+ ));
 
 
 async function uploadToS3(path , originalFilename , mimetype) {
