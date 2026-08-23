@@ -19,9 +19,9 @@ export default function PlacePage(){
     },[id])
     if(!place) return '';
     
-    return(
-        <div className="mt-4  bg-gray-100 -mx-8 px-8 pt-8">
-          <h1 className="text-3xl mr-36">{place.title}</h1>
+      return(
+           <div className="mt-4 -mx-4 md:-mx-8 md:px-8 bg-gray-100 pt-8">
+           <h1 className="text-3xl">{place.title}</h1>
             <AddressLink>{place.address}</AddressLink>
             <PlaceGallery place={place}/>
          
@@ -40,7 +40,7 @@ export default function PlacePage(){
               <Booking place={place}/>
              </div>
           </div>
-          <div className="bg-white -mx-8 px-8 py-8 border-t">
+           <div className="bg-white -mx-4 md:-mx-8 md:px-8 py-8 border-t">
           <div>
           <h2 className="font-semibold text-2xl">Extra Info</h2>
           </div>

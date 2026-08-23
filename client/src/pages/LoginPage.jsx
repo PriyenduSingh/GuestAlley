@@ -25,10 +25,10 @@ export default function LoginPage(){
       return <Navigate to={'/'} />
     }
     return(
-        <div className="mt-4 grow flex items-center justify-around">
-            <div className="-mt-64">
+        <div className="mt-8 md:mt-4 grow flex items-center justify-around">
+            <div className="mt-4 md:-mt-64">
             <h1 className="text-4xl text-center mb-4">Login</h1>
-            <form className="max-w-md mx-auto border" onSubmit={handleLoginSubmit}>
+            <form className="max-w-md mx-auto border p-4" onSubmit={handleLoginSubmit}>
                 <input type="email" 
                 placeholder="your@email.com" 
                 value={email} 

@@ -38,7 +38,7 @@ export default function PhotosUploader({addedPhotos,onChange}) {
      }
     return (
         <>
-        <div className="flex gap-2">
+        <div className="flex flex-col md:flex-row gap-2">
             <input type="text" value={photoLink}
                  onChange={ev=>setPhotoLink(ev.target.value)} 
                  placeholder={'Add a link ....jpg'}/>

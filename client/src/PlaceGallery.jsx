@@ -9,7 +9,7 @@ export default function PlaceGallery({place}){
               <div className="bg-black p-8 grid gap-4">
                 <div>
                   <h2 className="text-3xl">Photos of {place.title}</h2>
-                  <button onClick={()=>setShowAllPhotos(false)} className="fixed right-12 top-8 flex gap-2 py-2 px-4 rounded-2xl shadow shadow-black bg-white text-black">
+                  <button onClick={()=>setShowAllPhotos(false)} className="fixed right-4 top-4 flex gap-2 py-2 px-4 rounded-2xl shadow shadow-black bg-white text-black">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
                   </svg>
@@ -27,7 +27,7 @@ export default function PlaceGallery({place}){
       }
    return (
     <div className="relative ">
-    <div className="grid gap-2  grid-cols-[2fr_1fr] rounded-3xl overflow-hidden">
+    <div className="grid gap-2  grid-cols-1 md:grid-cols-[2fr_1fr] rounded-3xl overflow-hidden">
       <div>
         {place.photos?.[0] && (
           <div>

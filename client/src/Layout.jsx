@@ -4,7 +4,7 @@ import ChatBot from "./components/ChatBot/ChatBot";
 
 export default function Layout(){
     return(
-    <div className="py-4 px-8 flex flex-col min-h-screen">
+    <div className="py-4 px-4 md:px-8 flex flex-col min-h-screen">
       <Header/>
       <Outlet/>
       <ChatBot/>

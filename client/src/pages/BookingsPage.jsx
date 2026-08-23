@@ -18,9 +18,9 @@ export default function BookingsPage(){
          <AccountNav/>
          <div>
             
-            {bookings?.length>0 && bookings.map(booking => (
-                 <Link to={`/account/bookings/${booking._id}`} className="flex gap-4 bg-gray-200 rounded-2xl overflow-hidden">
-                    <div className="w-48">
+             {bookings?.length>0 && bookings.map(booking => (
+                  <Link to={`/account/bookings/${booking._id}`} className="flex flex-col md:flex-row gap-4 bg-gray-200 rounded-2xl overflow-hidden">
+                     <div className="w-full md:w-48">
                       <PlaceImg place={booking.place}/>
                     </div>
                     <div className="py-3 pr-3 grow">
